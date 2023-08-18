@@ -2,8 +2,8 @@ package dough;
 
 public class Integral implements IDough{
     
-    String name = "Integral";
-    Integer price = 6000;
+    private final String name = "Integral";
+    private final Integer price = 6000;
 
     @Override
     public String toString() {

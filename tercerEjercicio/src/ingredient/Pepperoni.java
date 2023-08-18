@@ -2,8 +2,8 @@ package ingredient;
 
 public class Pepperoni implements IIngredient{
 
-    String name = "Pepperoni";
-    Integer price = 3200;
+    private final String name = "Pepperoni";
+    private final Integer price = 3200;
 
     @Override
     public String toString() {

@@ -2,7 +2,7 @@ package dough;
 
 public interface IDough {
     
-    String name = "";
+    String toString();
     Integer priceDough();
 
 }

@@ -2,8 +2,8 @@ package size;
 
 public class Medium implements ISize{
     
-    String name = "Medium";
-    Integer price = 14000;
+    private final String name = "Medium";
+    private final Integer price = 14000;
 
     @Override
     public String toString() {

@@ -2,7 +2,7 @@ package ingredient;
 
 public interface IIngredient {
 
-    String name = "";
+    String toString();
     Integer priceIngredient();
     
 }

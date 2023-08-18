@@ -2,7 +2,7 @@ package size;
 
 public interface ISize {
     
-    String name = "";
+    String toString();
     Integer priceSize();
 
 }

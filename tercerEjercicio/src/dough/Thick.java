@@ -2,8 +2,8 @@ package dough;
 
 public class Thick implements IDough{
     
-    String name = "Thick";
-    Integer price = 5500;
+    private final String name = "Thick";
+    private final Integer price = 5500;
 
     @Override
     public String toString() {
