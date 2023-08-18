@@ -6,6 +6,7 @@ public class AdaptadorNuevoSistema implements PlataformaExistente {
     final private NuevoSistemaPago nuevoSistemaPago;
 
     public AdaptadorNuevoSistema(NuevoSistemaPago nuevoSistemaPago) {
+
         this.nuevoSistemaPago = nuevoSistemaPago;
     }
 
