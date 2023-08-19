@@ -23,13 +23,13 @@ public class Pizza {
     public String chainingredient (){
         String chain = "";
         for (Map.Entry<IIngredient, Integer> walkin : ingredient.entrySet()){
-            chain += "* " + walkin.getKey() + "\tAmount: " + walkin.getValue() + "\n";
+            chain += "* " + walkin.getKey() + "  \tAmount: " + walkin.getValue() + "\n";
         }
         return chain; 
     }
 
     @Override
     public String toString(){
-        return "Pizza\n" + "Size\t" + size + "\nDough\t" + dough + "\nIngredients\n" + chainingredient() + "\nExtracheese\t" + extracheese;
+        return "Pizza\n\n" + "Size\t" + size + "\nDough\t" + dough + "\nIngredients\n" + chainingredient() + "\nExtracheese\t" + extracheese;
     }
 }

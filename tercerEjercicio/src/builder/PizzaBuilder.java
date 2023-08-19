@@ -22,7 +22,7 @@ public class PizzaBuilder implements IDirector{
     @Override
     public void Size(ISize size){
         this.sizeF = size.toString();
-    }
+    } 
 
     @Override
     public void Ingredients(HashMap<IIngredient, Integer> map){
