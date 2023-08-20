@@ -51,6 +51,11 @@ Este ejercicio ilustra cómo el patrón de diseño "Adapter" se utiliza para res
 ## Problema 3
 ### Patrón Creacional: Builder
 
+En el tercer caso, se requiere un patrón creacional debido a la construcción de una orden personalizada de pizza. Optamos por el patrón Builder, que permite crear objetos con múltiples componentes de manera incremental. En este contexto, las características de la pizza se construyen por separado y luego se combinan en el objeto final "Pizza". Además, se crea un objeto "Factura" que proporciona al usuario información detallada sobre el pedido, incluyendo los precios individuales de cada componente. La necesidad de personalización total en este caso hace que la separación y combinación de componentes sea esencial.
+
+![Diagrama en blanco](https://github.com/WhtNr/Patrones_de_Diseno/assets/93276000/85e35331-9eca-41df-a133-b222ec46170e)
+
+
 ## Aprendizajes
 
 
